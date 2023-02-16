@@ -29,6 +29,10 @@ if __name__ == '__main__':
     programmingLangs.sort()
     print(f"After sorting : {programmingLangs}")
 
+    # Copy list
+    newList = programmingLangs.copy()
+    print(f"New list after copy : {newList}")
+
     # Remove element from list
     programmingLangs.remove("Go-Lang")
     print(f"After remove operation : {programmingLangs}")
