@@ -1,18 +1,17 @@
-languages = ["python","java","scala"]
+languages = ["python", "java", "scala"]
 
-for lang in languages:
+for lang in reversed(languages):
     print(lang)
 
 for x in "oracle":
     print(x)
 
 for x in languages:
-  if x == "java":
-    break
-    #continue
+    if x == "java":
+        break
     print(x)
 
-# range() function
+#range() function
 
 for x in range(6):
     print(x)
