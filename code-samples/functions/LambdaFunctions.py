@@ -17,3 +17,24 @@ if __name__ == '__main__':
     numList = [2, 4, 6, 8, 10]
     numSquare = list(map(lambda num: num * num, numList))
     print("Square of number in a list are : ", numSquare)
+
+    nList = [5, 3, 9, 6, 18]
+    sortedList = sorted(nList, reverse=True)
+    print("Sorted list numbers are : ", sortedList)
+
+    minNumber = min(nList)
+    maxNumber = max(nList)
+
+    print("Minimum number from list ", minNumber)
+    print("Maximum number from list ", maxNumber)
+
+    multiplicationResult = pow(4, 3, 5)  # --> ((4*4*4*4*4) % 3)
+    print("pow() result ", multiplicationResult)
+
+    num1 = 7.9657843
+    roundedNumber = round(num1, 3)
+    print("output of round() function ", roundedNumber)
+
+    listSum = sum(nList)
+    print("Sum of all the numbers in the list ", listSum)
+
