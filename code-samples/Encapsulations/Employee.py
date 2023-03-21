@@ -21,4 +21,4 @@ class Employee(Organisation):
 
 
 emp = Employee("Saurabh", 90000)
-emp.display()
+emp.displayDetails()
