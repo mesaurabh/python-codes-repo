@@ -1,0 +1,5 @@
+Welcome to the Python Training 2023
+This file will be used to demo the File reading using Python
+sample line 3
+sample line 4
+sample line 5

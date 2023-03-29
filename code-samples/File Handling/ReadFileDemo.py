@@ -1,0 +1,5 @@
+testFile = open('test.txt', 'r')
+# print(testFile.read())
+fileAsString = testFile.read()
+fileContent = testFile.readlines()
+testFile.close()
